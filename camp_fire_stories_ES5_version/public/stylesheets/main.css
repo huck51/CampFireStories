@@ -1,0 +1,10 @@
+#deleteForm {
+    display: inline;
+}
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+}
