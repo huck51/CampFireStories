@@ -8,6 +8,7 @@ var express = require("express"),
     passport = require("passport"),
     LocalStrategy = require("passport-local"),
     User = require("./models/user"),
+    port = process.env.PORT || 5000,
     methodOverride = require("method-override");
 
 //ROUTES
@@ -47,6 +48,6 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 //LISTENER
-app.listen(process.env.PORT, process.env.IP, function(){
-    console.log(`SERVS UP DUDE ON PORT ${process.env.PORT}`);
+app.listen(port, function(){
+    console.log(`SERVS UP DUDE ON PORT ${port}`);
 });
