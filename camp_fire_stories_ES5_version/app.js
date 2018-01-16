@@ -48,5 +48,5 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 
 //LISTENER
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("SERVS UP DUDE");
+    console.log(`SERVS UP DUDE ON PORT ${process.env.PORT}`);
 });
