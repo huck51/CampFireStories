@@ -16,7 +16,7 @@ var campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes = require("./routes/index");
 
 //APP CONFIG
-mongoose.connect("mongodb://localhost/camp_fire_stories");
+// mongoose.connect("mongodb://localhost/camp_fire_stories");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
