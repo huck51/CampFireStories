@@ -1,8 +1,9 @@
 #deleteForm {
     display: inline;
 }
-.thumbnail img {
+.thumbnail>img {
     width: 100%;
+    height: 20em;
 }
 
 .thumbnail{

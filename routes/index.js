@@ -33,7 +33,7 @@ router.post("/register", function(req, res){
            res.render("/register");
        }
        passport.authenticate("local")(req, res, function(){
-          res.render("/campgrounds/index");
+          res.render("campgrounds/index");
        });
    });
 });
