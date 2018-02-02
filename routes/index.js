@@ -15,7 +15,14 @@ router.use(function(req, res, next){
 
 //LANDING PAGE ROUTE
 router.get("/", function(req, res){
-    res.render("landingPage");
+  Campground.find({}, function(err, allCampgrounds) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.render("landingPage", {campgrounds: allCampgrounds});
+    }
+  });
+
 });
 
 
