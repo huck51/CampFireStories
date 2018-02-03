@@ -4,5 +4,6 @@ body {
 }
 .jumbotron {
   background-color: transparent;
+  background-position: center; 
   text-align: center;
 }
