@@ -1,9 +1,15 @@
 <% include partials/landingPageHeader %>
-<div class="logUp jumbotron">
+<div class="logUp">
   <h1>Login</h1>
   <form action="/login" method="post">
+    <div class="form-group">
+      <label for="username">Username:</label>
       <input type="text" name="username" placeholder="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
       <input type="password" name="password" placeholder="password">
+    </div>
       <button>Login</button>
   </form>
 </div>
