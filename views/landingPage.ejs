@@ -14,6 +14,6 @@
     <button class="lpButton"><a href="/register">Sign Up</a></button>
   </div>
 </div>
-  <p class="bgInfo"><%= campground.name %> posted by <%= campground.author.username %></p>
+  <p class="bgInfo"><a href="/campgrounds/<%= campground.id %>"><%= campground.name %> posted by <%= campground.author.username %></a></p>
 
 <% include partials/footer %>
