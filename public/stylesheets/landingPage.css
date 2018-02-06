@@ -57,3 +57,6 @@ body {
 .jumbotron>h1 {
   font-size: 6.25em;
 }
+.jumbotron>h3 {
+  font-size: 4em;
+}
