@@ -2,6 +2,18 @@
 #deleteForm {
     display: inline;
 }
+.container-fluid {
+  margin: auto 3em;
+}
+.enter {
+  background-color: transparent;
+  color: rgb(244,157,110);
+  border: 5px solid rgb(244,157,110);
+  font-size: 1.25em;
+}
+.enter:hover {
+  color: rgb(239,212,108);
+}
 .hide {
   display: none;
 }
