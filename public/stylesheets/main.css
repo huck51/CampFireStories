@@ -4,6 +4,7 @@
 }
 .container {
   margin: auto 3em;
+  width: 100%;
 }
 .enter {
   background-color: transparent;
