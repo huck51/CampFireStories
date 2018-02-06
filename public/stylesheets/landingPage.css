@@ -28,10 +28,9 @@ body {
   color: rgb(244,157,110);
   border: 3px solid rgb(244,157,110);
   border-radius: 10px;
-  padding: 1em;
   width: 100%;
   margin: 1em;
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 .lpButton>a {
   color: rgb(244,157,110);
