@@ -25,6 +25,10 @@ body {
 .hide {
   display: none;
 }
+.icon-bar {
+  color: rgb(244,157,110);
+  border-color: rgb(244,157,110);
+}
 .jumbotron {
   background-color: rgba(65,96,127,1);
   color: rgb(244,157,110);
@@ -34,6 +38,10 @@ body {
 .navbar {
   background-color: rgba(65,96,127,1);
   color: rgb(244,157,110);
+}
+.navbar-toggle {
+  color: rgb(244,157,110);
+  border-color: rgb(244,157,110);
 }
 .nav>li>a:hover {
   color: rgb(239,212,108);

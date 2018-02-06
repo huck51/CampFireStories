@@ -27,6 +27,10 @@ html, body {
 .enter:hover {
   color: rgb(239,212,108);
 }
+.icon-bar {
+  color: rgb(244,157,110);
+  border-color: rgb(244,157,110);
+}
 .logUp {
   color: rgb(244,157,110);
   width: 30%;
@@ -58,6 +62,10 @@ html, body {
 .navbar {
   background-color: rgba(65,96,127,0.8);
   color: rgb(244,157,110);
+}
+.navbar-toggle {
+  color: rgb(244,157,110);
+  border-color: rgb(244,157,110);
 }
 .nav>li>a:hover {
   color: rgb(239,212,108);
