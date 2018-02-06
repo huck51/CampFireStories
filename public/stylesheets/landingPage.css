@@ -22,6 +22,9 @@ html, body {
 .bgInfo>a {
   color: rgb(244,157,110);
 }
+.container-fluid {
+  margin: auto 2em;
+}
 .enter {
   background-color: transparent;
   color: rgb(244,157,110);
