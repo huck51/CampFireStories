@@ -8,6 +8,7 @@ body {
 }
 .bottomButton {
   margin: 2em 1em;
+  width: 100%;
 }
 .container-fluid {
   margin: auto 2em;
