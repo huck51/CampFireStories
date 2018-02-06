@@ -5,6 +5,15 @@
 .hide {
   display: none;
 }
+.jumbotron {
+  background-color: rgba(65,96,127,0.8);
+  background-position: center;
+  text-align: center;
+  color: rgb(244,157,110);
+  margin: auto 5em;
+  border: 3px solid rgb(244,157,110);
+  border-radius: 10px;
+}
 .navbar {
   background-color: rgba(65,96,127,0.8);
   color: rgb(244,157,110);
