@@ -6,6 +6,9 @@ body {
 #deleteForm {
     display: inline;
 }
+.bottomButton {
+  margin: 2em 1em;
+}
 .container-fluid {
   margin: auto 2em;
 }
@@ -22,13 +25,13 @@ body {
   display: none;
 }
 .jumbotron {
-  background-color: rgba(65,96,127,0.8);
+  background-color: rgba(65,96,127,1);
   color: rgb(244,157,110);
   border: 3px solid rgb(244,157,110);
   border-radius: 10px;
 }
 .navbar {
-  background-color: rgba(65,96,127,0.8);
+  background-color: rgba(65,96,127,1);
   color: rgb(244,157,110);
 }
 .nav>li>a:hover {
@@ -43,7 +46,7 @@ body {
   color: rgb(239,212,108);
 }
 .thumbBtn {
-  background-color: rgba(65,96,127,0.8);
+  background-color: rgba(65,96,127,1);
   color: white;
 }
 .thumbnail>img {
