@@ -8,6 +8,10 @@ body {
   color: rgb(244,157,110);
   text-align: center;
 }
+.enter {
+  background-color: rgb(244,157,110);
+  color: rgba(65,96,127,1);
+}
 .logUp {
   color: rgb(244,157,110);
   width: 30%;
