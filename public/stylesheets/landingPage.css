@@ -3,13 +3,17 @@ body {
   background-size: cover;
   background-position: center;
 }
+html, body {
+  height: 100%;
+}
 .bgInfo {
   bottom: 2em;
   color: rgb(244,157,110);
   text-align: center;
   font-size: 1.5em;
   position: fixed;
-  bottom: 0px;
+  bottom: 0.5em;
+  margin: auto;
 }
 .bgInfo>a {
   color: rgb(244,157,110);
