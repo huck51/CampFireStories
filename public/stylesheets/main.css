@@ -49,6 +49,9 @@ body {
   background-color: rgba(65,96,127,1);
   color: white;
 }
+.thumbBtn:hover {
+  color: rgb(244,157,110);
+}
 .thumbnail>img {
     max-height: 15em;
     min-height: 15em;
