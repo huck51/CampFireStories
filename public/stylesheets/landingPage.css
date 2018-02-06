@@ -43,6 +43,9 @@ html, body {
   font-size: 1.75em;
   padding: 0.5em;
 }
+.lpButton:hover {
+  color: white;
+}
 .lpButton>a {
   color: rgb(244,157,110);
 }
@@ -55,6 +58,10 @@ html, body {
 }
 .navText {
   color: rgb(244,157,110);
+}
+.navText:hover {
+  background-color: rgba(65,96,127,0.8);
+  color: white;
 }
 .jumbotron {
   background-color: rgba(65,96,127,0.8);
