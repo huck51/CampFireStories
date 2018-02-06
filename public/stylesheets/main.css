@@ -54,4 +54,5 @@ body {
 .thumbnail{
     padding: 0;
     height: 25em;
+    border: 3px solid rgb(244,157,110);
 }
