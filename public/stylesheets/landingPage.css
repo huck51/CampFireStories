@@ -6,6 +6,9 @@ body {
   background-color: rgba(65,96,127,1);
   color: rgb(244,157,110);
 }
+.navText {
+  color: rgb(244,157,110);
+}
 .jumbotron {
   background-color: rgba(65,96,127,0.8);
   background-position: center;
