@@ -1,17 +1,21 @@
 <% include partials/landingPageHeader %>
-<div class="logUp">
-  <h1>Login</h1>
-  <form action="/login" method="post">
-    <div class="form-group">
-      <label for="username">Username:</label>
-      <input type="text" name="username" placeholder="username" class="form-control">
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+    <div class="logUp">
+      <h1>Login</h1>
+      <form action="/login" method="post">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" name="username" placeholder="username" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" name="password" placeholder="password" class="form-control">
+        </div>
+          <button class="enter btn">Login</button>
+      </form>
     </div>
-    <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="password" name="password" placeholder="password" class="form-control">
-    </div>
-      <button class="enter btn">Login</button>
-  </form>
+  </div>
 </div>
 <p class="bgInfo"><a href="/campgrounds/<%= campground.id %>"><%= campground.name %> posted by <%= campground.author.username %></a></p>
 
