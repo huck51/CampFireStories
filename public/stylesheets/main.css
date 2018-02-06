@@ -1,6 +1,9 @@
 #deleteForm {
     display: inline;
 }
+.hide {
+  display: none;
+}
 .thumbnail>img {
     max-height: 15em;
     min-height: 15em;
