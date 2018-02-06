@@ -1,3 +1,8 @@
+
+nav {
+  background-color: rgba(65,96,127,1);
+  color: rgb(244,157,110);
+}
 #deleteForm {
     display: inline;
 }
