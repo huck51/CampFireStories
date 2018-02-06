@@ -1,16 +1,24 @@
 
-.navbar {
-  background-color: rgba(65,96,127,0.8);
-  color: rgb(244,157,110);
-}
-.navText {
-  color: rgb(244,157,110);
-}
 #deleteForm {
     display: inline;
 }
 .hide {
   display: none;
+}
+.navbar {
+  background-color: rgba(65,96,127,0.8);
+  color: rgb(244,157,110);
+}
+.nav>li>a:hover {
+  color: rgb(239,212,108);
+  background-color: inherit;
+}
+.navText {
+  color: rgb(244,157,110);
+}
+.navText:hover {
+  background-color: inherit;
+  color: rgb(239,212,108);
 }
 .thumbBtn {
   background-color: rgba(65,96,127,0.8);
