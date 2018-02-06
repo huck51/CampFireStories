@@ -13,7 +13,7 @@ html, body {
   font-size: 1.5em;
   position: fixed;
   bottom: 0.5em;
-  right: 50%;
+  width: 100%;
 }
 .bgInfo>a {
   color: rgb(244,157,110);
