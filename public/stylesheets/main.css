@@ -28,6 +28,7 @@ body {
 .icon-bar {
   color: rgb(244,157,110);
   border-color: rgb(244,157,110);
+  background-color: rgb(244,157,110);
 }
 .jumbotron {
   background-color: rgba(65,96,127,1);

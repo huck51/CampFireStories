@@ -30,6 +30,7 @@ html, body {
 .icon-bar {
   color: rgb(244,157,110);
   border-color: rgb(244,157,110);
+  background-color: rgb(244,157,110);
 }
 .logUp {
   color: rgb(244,157,110);
