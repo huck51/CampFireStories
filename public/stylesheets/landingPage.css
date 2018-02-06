@@ -8,6 +8,11 @@ body {
   color: rgb(244,157,110);
   text-align: center;
 }
+.logUp {
+  color: rgb(244,157,110);
+  width: 30%;
+  margin: 3em auto;
+}
 .lpButton {
   background-color: rgba(65,96,127,0.8);
   color: rgb(244,157,110);
