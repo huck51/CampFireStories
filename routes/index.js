@@ -29,7 +29,13 @@ router.get("/", function(req, res){
 
 //AUTH REGISTER ROUTE -- Shows the register form
 router.get("/register", function(req, res){
-   res.render("register");
+  Campground.find({}, function(err, allCampgrounds) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.render("register", {campgrounds: allCampgrounds});
+    }
+  });
 });
 
 //AUTH REGISTER ROUTE -- Handles sign up logic
@@ -48,7 +54,13 @@ router.post("/register", function(req, res){
 
 //LOGIN ROUTE -- Show login form
 router.get("/login", function(req, res){
-   res.render("login");
+  Campground.find({}, function(err, allCampgrounds) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.render("login", {campgrounds: allCampgrounds});
+    }
+  });
 });
 
 //LOGIN ROUTE-- Handle login logic
