@@ -1,12 +1,11 @@
-<% include partials/header %>
+<% include partials/landingPageHeader %>
 
 <h1>Sign up!</h1>
-
-    <form action="/register" method="post">
-        <input type="text" name="username" placeholder="username">
-        <input type="password" name="password" placeholder="password">
-        <button>Sign Up</button>
-    </form>
-
+<form action="/register" method="post">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Sign Up</button>
+</form>
+<p class="bgInfo"><%= campground.name %> posted by <%= campground.author.username %></p>
 
 <% include partials/footer %>

@@ -3,16 +3,17 @@
   <h1>Campfire Stories</h1>
     <p>Rate and review campsites and hiking trails.</p>
 </div>
-  <div class="row lpButtonGroup">
-    <div class="col-sm-12 col-md-4">
-      <button class="lpButton"><a href="/campgrounds">View all campgrounds</a></button>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <button class="lpButton"><a href="/campgrounds/new">Write a Review</a></button>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <button class="lpButton"><a href="/register">Sign Up</a></button>
-    </div>
+<div class="row lpButtonGroup">
+  <div class="col-sm-12 col-md-4">
+    <button class="lpButton"><a href="/campgrounds">View all campgrounds</a></button>
   </div>
+  <div class="col-sm-12 col-md-4">
+    <button class="lpButton"><a href="/campgrounds/new">Write a Review</a></button>
+  </div>
+  <div class="col-sm-12 col-md-4">
+    <button class="lpButton"><a href="/register">Sign Up</a></button>
+  </div>
+</div>
+  <p class="bgInfo"><%= campground.name %> posted by <%= campground.author.username %></p>
 
 <% include partials/footer %>
