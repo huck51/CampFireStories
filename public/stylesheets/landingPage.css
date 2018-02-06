@@ -24,6 +24,9 @@ html, body {
   border: 5px solid rgb(244,157,110);
   font-size: 1.25em;
 }
+.enter:hover {
+  color: rgb(239,212,108);
+}
 .logUp {
   color: rgb(244,157,110);
   width: 30%;
@@ -64,7 +67,7 @@ html, body {
   color: rgb(244,157,110);
 }
 .navText:hover {
-  background-color: rgba(65,96,127,0.8);
+  background-color: inherit;
   color: rgb(239,212,108);
 }
 .jumbotron {
