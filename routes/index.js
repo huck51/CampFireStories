@@ -20,7 +20,7 @@ router.get("/", function(req, res){
     if (err) {
       console.log(err);
     } else {
-      const rand = Math.floor(Math.random() * campgrounds.length);
+      const rand = Math.floor(Math.random() * allCampgrounds.length);
       res.render("landingPage", {campground: allCampgrounds[rand]});
     }
   });
@@ -34,7 +34,7 @@ router.get("/register", function(req, res){
     if (err) {
       console.log(err);
     } else {
-      const rand = Math.floor(Math.random() * campgrounds.length);
+      const rand = Math.floor(Math.random() * allCampgrounds.length);
       res.render("register", {campground: allCampgrounds[rand]});
     }
   });
@@ -60,7 +60,7 @@ router.get("/login", function(req, res){
     if (err) {
       console.log(err);
     } else {
-      const rand = Math.floor(Math.random() * campgrounds.length);
+      const rand = Math.floor(Math.random() * allCampgrounds.length);
       res.render("login", {campground: allCampgrounds[rand]});
     }
   });
