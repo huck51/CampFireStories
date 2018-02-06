@@ -6,9 +6,8 @@ body {
 #deleteForm {
     display: inline;
 }
-.container {
-  margin: auto;
-  width: 100%;
+.container-fluid {
+  margin: auto 2em;
 }
 .enter {
   background-color: transparent;
