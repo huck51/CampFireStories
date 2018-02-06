@@ -14,7 +14,7 @@ html, body {
   color: rgb(244,157,110);
   text-align: center;
   font-size: 1.5em;
-  position: fixed;
+  position: absolute;
   bottom: 0.5em;
   width: 100%;
   display: block;
@@ -54,6 +54,7 @@ html, body {
   border-radius: 10px;
   width: 100%;
   font-size: 1.5em;
+  margin-bottom: 1em;
 }
 .lpButton:hover {
   color: rgb(239,212,108);
