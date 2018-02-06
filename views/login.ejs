@@ -13,7 +13,6 @@
       <button class="enter btn">Login</button>
   </form>
 </div>
-<footer>
-  <p class="bgInfo"><a href="/campgrounds/<%= campground.id %>"><%= campground.name %> posted by <%= campground.author.username %></a></p>
-</footer>
+<p class="bgInfo"><a href="/campgrounds/<%= campground.id %>"><%= campground.name %> posted by <%= campground.author.username %></a></p>
+
 <% include partials/footer%>
