@@ -2,9 +2,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100%;
+  width: 100%;
 }
 html, body {
   height: 100%;
+  width: 100%;
 }
 .bgInfo {
   bottom: 2em;
@@ -22,7 +25,6 @@ html, body {
   background-color: transparent;
   color: rgb(244,157,110);
   border: 5px solid rgb(244,157,110);
-  font-size: 1.25em;
 }
 .enter:hover {
   color: rgb(239,212,108);
@@ -34,7 +36,7 @@ html, body {
 }
 .logUp {
   color: rgb(244,157,110);
-  width: 30%;
+  width: 100%;
   margin: 3em auto;
   background-color: rgba(65,96,127,0.8);
   border: 3px solid rgb(244,157,110);

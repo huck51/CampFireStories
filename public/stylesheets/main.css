@@ -17,7 +17,6 @@ body {
   background-color: transparent;
   color: rgb(244,157,110);
   border: 5px solid rgb(244,157,110);
-  font-size: 1em;
 }
 .enter:hover {
   color: rgb(239,212,108);
