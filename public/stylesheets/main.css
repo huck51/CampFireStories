@@ -44,7 +44,7 @@ body {
 }
 .thumbBtn {
   background-color: rgba(65,96,127,0.8);
-  color: rgb(244,157,110);
+  color: white;
 }
 .thumbnail>img {
     max-height: 15em;
