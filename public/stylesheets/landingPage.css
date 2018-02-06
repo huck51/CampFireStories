@@ -9,6 +9,9 @@ body {
   text-align: center;
   font-size: 1.5em;
 }
+.bgInfo>a {
+  color: rgb(244,157,110);
+}
 .enter {
   background-color: transparent;
   color: rgb(244,157,110);
