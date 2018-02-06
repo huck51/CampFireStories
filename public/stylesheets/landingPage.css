@@ -8,6 +8,15 @@ body {
   color: rgb(244,157,110);
   border: 3px solid rgb(244,157,110);
   border-radius: 10px;
+  padding: 1em;
+  width: 100%;
+  margin: 1em;
+}
+.lpButton>a {
+  color: rgb(244,157,110);
+}
+.lpButtonGroup {
+  margin: 1em 3em;
 }
 .navbar {
   background-color: rgba(65,96,127,0.8);
