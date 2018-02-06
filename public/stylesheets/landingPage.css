@@ -4,7 +4,9 @@ body {
   background-position: center;
 }
 .bgInfo {
-  
+  bottom: 2em;
+  color: rgb(244,157,110);
+  text-align: center;
 }
 .lpButton {
   background-color: rgba(65,96,127,0.8);
