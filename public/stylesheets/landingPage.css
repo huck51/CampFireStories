@@ -9,9 +9,9 @@ body {
   text-align: center;
 }
 .enter {
-  background-color: white;
-  color: rgba(65,96,127,1);
-  border: 3px solid rgb(244,157,110);
+  background-color: transparent;
+  color: rgb(244,157,110);
+  border: 5px solid rgb(244,157,110);
 }
 .logUp {
   color: rgb(244,157,110);
