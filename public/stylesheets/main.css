@@ -54,6 +54,9 @@ body {
   background-color: inherit;
   color: rgb(239,212,108);
 }
+.row:after, .row:before {
+  content: normal;
+}
 .thumbBtn {
   background-color: rgba(65,96,127,1);
   color: white;
