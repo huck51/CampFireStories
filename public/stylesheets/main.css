@@ -5,7 +5,7 @@ body {
 }
 footer {
   background-color: rgba(65,96,127,1);
-  padding: 3em;
+  padding: 2em 2em 3em 2em;
 }
 #deleteForm {
     display: inline;
