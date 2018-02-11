@@ -28,6 +28,10 @@ footer {
 .foota {
   color: rgb(244,157,110);
   margin: auto;
+  text-align: center;
+}
+.foota:hover {
+  color: rgb(239,212,108);
 }
 .hide {
   display: none;
