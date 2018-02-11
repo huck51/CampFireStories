@@ -33,6 +33,9 @@ footer {
 .foota:hover {
   color: rgb(239,212,108);
 }
+.foota:visited {
+  color: rgb(244,157,110);
+}
 .hide {
   display: none;
 }
