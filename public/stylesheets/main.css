@@ -7,9 +7,6 @@ footer {
   background-color: rgba(65,96,127,1);
   padding: 2em;
 }
-footer>a {
-  color: rgb(244,157,110);
-}
 #deleteForm {
     display: inline;
 }
@@ -27,6 +24,10 @@ footer>a {
 }
 .enter:hover {
   color: rgb(239,212,108);
+}
+.foota {
+  color: rgb(244,157,110);
+  margin: auto;
 }
 .hide {
   display: none;
